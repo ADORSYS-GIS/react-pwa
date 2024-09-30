@@ -2,9 +2,9 @@ name: analyses
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, develop]
   pull_request:
-    branches: [main, master]
+    branches: [main, master, develop]
 jobs:
   install:
     runs-on: ubuntu-latest
